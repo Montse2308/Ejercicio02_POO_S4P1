@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446f5bd-6755-416b-a85d-fe0675623567" name="Changes" comment="Según yo ya debería de funcionar pero no entiendo pq siempre dice q no está dentro">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="d446f5bd-6755-416b-a85d-fe0675623567" name="Changes" comment="Elimine esa clase q no estaba usando">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Punto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Punto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674935497134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Todo esta bien pero no jalaaaa">
+      <created>1674936736039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674936736039</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Elimine esa clase q no estaba usando">
+      <created>1674936838671</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674936838671</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +89,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Según yo ya debería de funcionar pero no entiendo pq siempre dice q no está dentro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Según yo ya debería de funcionar pero no entiendo pq siempre dice q no está dentro" />
+    <MESSAGE value="Todo esta bien pero no jalaaaa" />
+    <MESSAGE value="Elimine esa clase q no estaba usando" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elimine esa clase q no estaba usando" />
   </component>
 </project>
