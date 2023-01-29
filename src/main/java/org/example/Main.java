@@ -1,3 +1,9 @@
+/*
+MONTSERRAT XIMENA HERNANDEZ GALLEGOS
+28/01/2023
+"Escribe un proyecto en Java que indique si el un triángulo se encuentra dentro de un rectángulo o no"
+*/
+
 package org.example;
 
 public class Main {

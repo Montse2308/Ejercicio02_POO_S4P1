@@ -9,6 +9,7 @@ public class Triangulo {
         this.a = a;
         this.b = b;
         this.c = c;
+
     }
 
     public Punto getA() {

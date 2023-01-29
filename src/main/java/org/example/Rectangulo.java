@@ -15,36 +15,32 @@ public class Rectangulo {
 
     public Punto[] OrganizarArreglo()//Creo un arreglo organizado con las coordenadas
     {
-        Punto arreglo[]={this.InfIzq, this.InfDer,this.SupIzq,this.SupDer};
+        Punto[] arreglo ={this.InfIzq, this.InfDer,this.SupIzq,this.SupDer};
 
-        //Primero organizo las coordenadas para que esten primero las infereriores
         for (int i = 0; i < 4 ; i++) {//
-            for (int j = 1; j < 4-1 ; j++) {
+            for (int j = i+1; j < 4-1 ; j++) {
+
+                //Primero organizo las coordenadas para que esten primero las infereriores
                 if(arreglo[i].getY() > arreglo[j].getY()){
                     Punto temp= arreglo[i];
                     arreglo[i]=arreglo[j];
                     arreglo[j]=temp;
+
+                    //Si ambos puntos tienen la misma altura en y, los ordeno por las x
+                    if(arreglo[i].getY()==arreglo[j].getY() && arreglo[i].getX()>arreglo[j].getX()){
+                        Punto aux= arreglo[i];
+                        arreglo[i]=arreglo[j];
+                        arreglo[j]=aux;
+                    }
                 }
             }
-        }
-
-        //Ya que tengo las inferiores, las ordeno x si son las izquierdas o derechas
-        if( arreglo[0].getX() > arreglo[1].getX()){
-            Punto temp= arreglo[0];
-            arreglo[0]=arreglo[1];
-            arreglo[1]=temp;
-        }
-        if( arreglo[2].getX() > arreglo[3].getX()){
-            Punto temp= arreglo[2];
-            arreglo[2]=arreglo[3];
-            arreglo[3]=temp;
         }
 
         return arreglo;
     }
 
     public void OrganizarCoordenadas(){//Ya que el arreglo está organizado puedo acomodarlas dentro de mi triangulo
-        Punto arreglo[] = OrganizarArreglo();
+        Punto[] arreglo = OrganizarArreglo();
 
         this.InfIzq=arreglo[0];
         this.InfDer=arreglo[1];

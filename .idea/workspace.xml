@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d446f5bd-6755-416b-a85d-fe0675623567" name="Changes" comment="Elimine esa clase q no estaba usando">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Punto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Punto.java" afterDir="false" />
+    <list default="true" id="d446f5bd-6755-416b-a85d-fe0675623567" name="Changes" comment="detallitos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674936838671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="detallitos">
+      <created>1674937173101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674937173101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +101,7 @@
     <MESSAGE value="Según yo ya debería de funcionar pero no entiendo pq siempre dice q no está dentro" />
     <MESSAGE value="Todo esta bien pero no jalaaaa" />
     <MESSAGE value="Elimine esa clase q no estaba usando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elimine esa clase q no estaba usando" />
+    <MESSAGE value="detallitos" />
+    <option name="LAST_COMMIT_MESSAGE" value="detallitos" />
   </component>
 </project>
